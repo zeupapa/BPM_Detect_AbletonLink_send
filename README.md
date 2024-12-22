@@ -6,13 +6,13 @@
 
 **The relyable range is currently between 110-180 BPM.**
 
-##Advantages:
+## Advantages:
 
    - Fairly accurate (good enough for what I needed it)
    - Ableton Link is integrated, allowing connection to other Link enabled softwares like other VJ tools.
    - Works with low-quality signals, such as a microphone input.
 
-##Installation:
+## Installation:
 
    1. pip install sounddevice librosa numpy aalink asyncio
    2. Download all the files (bpm.py) from this repository and save into a new folder.
