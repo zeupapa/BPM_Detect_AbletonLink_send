@@ -2,7 +2,7 @@
 
 **This command line BPM analyzer tool is designed for live musicians like DJ-s and VJ-s who want to collaborate with other artists.**
 <br/>
-When the program starts it lists all your available sound devices. You have to choose a device from the list by typeing in the number of the device.
+When the program starts it lists all your available sound devices. You have to choose a device from the list by typing in the number of the device.
 <br/>
 The program analyses the input signal of the selected sound device (in mono mode) and determines the BPM of the input by librosa lib.
 <br/>
@@ -14,7 +14,7 @@ The actual BPM value will be shown in the command line terminal.
 
 ## Advantages:
 
-   - Fairly accurate (good enough for what I needed it)
+   - Fairly accurate BPM detection (good enough for what I needed it)
    - Ableton Link is integrated, allowing connection to other Link enabled softwares like other VJ tools.
    - Works with low-quality signals, such as a microphone input.
 
