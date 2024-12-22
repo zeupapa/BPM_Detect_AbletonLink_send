@@ -1,13 +1,13 @@
 # BPM Detect AbletonLink send
 
 **This command line BPM analyzer tool is designed for live musicians like DJ-s and VJ-s who want to collaborate with other artists.**
-<br\>
+<br/>
 When the program starts it lists all your available sound devices. You have to choose a device from the list by typeing in the number of the device.
-<br\>
+<br/>
 The program analyses the input signal of the selected sound device (in mono mode) and determines the BPM of the input by librosa lib.
-<br\>
+<br/>
 Then sends the determined BPM value out on the Ableton Link protocol using aalink library.
-<br\>
+<br/>
 The actual BPM value will be shown in the command line terminal.
 
 **The relyable range is currently between 110-180 BPM.**
