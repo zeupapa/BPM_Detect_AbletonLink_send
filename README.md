@@ -14,7 +14,14 @@
 
 ## Installation:
 
-   1. pip install sounddevice librosa numpy aalink asyncio
+   1. `pip install sounddevice librosa numpy aalink asyncio`
    2. Download all the files (bpm.py) from this repository and save into a new folder.
    3. cd into the new folder via command line
    4. Run bpm.py from the command line.
+
+## Making an executable for Windows using PyInstaller:
+   1. Install PyInstaller: `pip install pyinstaller`
+   2. Navigate to your script’s directory: `cd path\to\your\script`
+   3. Run PyInstaller: `pyinstaller --onefile bpm.py` (The `–onefile` flag indicates that you want a single executable file instead of a bunch of files)
+   
+See Pyinstaller manual form more options: https://pyinstaller.org/en/stable/usage.html
